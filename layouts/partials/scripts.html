@@ -5,12 +5,6 @@
 {{- partial "scripts/search.html" . -}}
 
 {{/* Mermaid */}}
-{{/* FIXME: need to investigate .Page.Store hasMermaid is set for homepage */}}
-{{- if and (.Page.Store.Get "hasMermaid") (not .Page.IsHome) -}}
+{{- if (.Store.Get "hasMermaid") -}}
   {{- partial "scripts/mermaid.html" . -}}
-{{- end -}}
-
-{{/* KaTex */}}
-{{- if .Page.Params.math -}}
-  {{- partial "scripts/katex.html" . -}}
 {{- end -}}

@@ -5,9 +5,9 @@ toc: false
 layout: wide
 ---
 
-<div class="hx-mt-4"></div>
+<div class="hx:mt-4"></div>
 
-<p class="hx-mb-12 hx-text-center hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">
+<p class="hx:mb-12 hx:text-center hx:text-lg hx:text-gray-500 hx:dark:text-gray-400">
 Open source projects powered by Hextra
 </p>
 
@@ -15,7 +15,7 @@ Open source projects powered by Hextra
   {{< card
         link="https://github.com/claceio/clace"
         title="Clace"
-        image="https://github.com/user-attachments/assets/55de142c-eb21-4402-81db-bc64417eaae2"
+        image="https://github.com/user-attachments/assets/af4dbd21-a492-48dd-96fd-8542c548bd03"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
